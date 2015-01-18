@@ -220,7 +220,7 @@ a:focus {
 #headerwrap h1 {
 	color: white;
 	margin-bottom: 25px;
-    margin-top: 25px;
+ 
 }
 
 #headerwrap .img-responsive {
@@ -241,7 +241,7 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	padding-top: 20px;
+	padding-top: 0px;
 	margin-bottom: 60px;
 	display: block;
 	text-align: center
