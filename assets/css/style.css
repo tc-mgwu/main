@@ -212,6 +212,7 @@ a:focus {
 	text-align: center;
 }
 
+
 #headerwrap h3, h5 {
 	color: white;
 	font-weight: 400;
@@ -238,7 +239,11 @@ a:focus {
 	font-size: 60px;
 	padding: 15px;
 }
-
+/*Portfolio Header padding top*/
+#portfoliotitle
+{
+    padding-top: 30 px;
+}
 /* Portfolio Wrap */
 #portfoliowrap {
 	padding-top: 0px;
