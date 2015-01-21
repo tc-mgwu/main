@@ -1,585 +1,197 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Molly | Home :: w3layouts</title>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
-</script>
-<!--fonts-->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>
-<!--/fonts-->
-<!--js--> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300,200' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="js/smoothscroll.js"></script>
 <script src="js/jquery.min.js"></script>
-<!--/js-->
-<!--animated-css-->
-<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-<script src="js/wow.min.js"></script>
-<script>
- new WOW().init();
-</script>
-<!--/animated-css-->
-<!--gallery-->
-<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
-<script type="text/javascript" src="js/jquery.gallery.js"></script>
-<script type="text/javascript">
-		$(function() {
-		$('#dg-container').gallery({
-		autoplay	:	true
-	});
-});
-</script>
-<!--/gallery-->
-<!--script-->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<!--/script-->
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-				});
-			});
-</script>
-
-
+<title>Autumn Allee</title>
 </head>
+
 <body>
-<!--top-nav-->
-<div class="top-nav">
-	 <div class="container">
-		 <div class="logo">
-		    <a href="#"><img src="images/logo.png" class="img-responsive" alt=""/></a>
-		 </div>
-	     <div class="nav">
-		     <span class="menu"> </span> 
-			 <ul>
-				 <li><a class="scroll" href="#home">HOME</a></li>
-				 <li><a class="scroll" href="#services">SERVICES</a></li>
-				 <li><a class="scroll" href="#portfolio">PORTFOLIO</a></li>
-				 <li><a class="scroll" href="#about">ABOUT US</a></li>
-				 <li><a class="scroll" href="#blog">BLOG</a></li>
-				 <li><a class="scroll" href="#contact">CONTACT US</a></li>
-				 <div class="clearfix"> </div>
-			 </ul>
-		 </div>
-		 <!--script-nav-->
-		 <script>
-		 $("span.menu").click(function(){
-		 $(".nav ul").slideToggle("slow" , function(){
-		 });
-		 });
-		 </script>
-		 <!--script-nav-->
 
-	 </div>
-</div>
-<!--top-nav ends-->
-<!--banner-->
-<div id="home" class="banner">
-     <div class="banner-head">
-	     <div class="container">
-		      <!--banner Slider starts Here-->
-	  			<script src="js/responsiveslides.min.js"></script>
-			   <script>
-					// You can also use "$(window).load(function() {"
-					$(function () {
-					  // Slideshow 4
-					  $("#slider4").responsiveSlides({
-						auto: true,
-						pager: true,
-						nav: false,
-						speed: 500,
-						namespace: "callbacks",
-						before: function () {
-						  $('.events').append("<li>before event fired.</li>");
-						},
-						after: function () {
-						  $('.events').append("<li>after event fired.</li>");
-						}
-					  });
+
+
+	<!--------Start Header----------->
+    	<div class="header">
+        	<div class="container">
+            	<div class="logo-menu">
+                	<div class="logo">
+                    	<h1>Autumn Allee | Soprano</h1>
+                    </div>
+                    <div class="menu">
+                    <label for="show-menu" class="show-menu">Show Menu</label>
+					<input type="checkbox" id="show-menu" role="button"></input>
+                    	<ul class="nav" id="menu">
+                        	<li><a href="#" class="active">Home</a></li>
+                            <li><a href="#service">About</a></li>
+                            <li><a href="#work"> My Work</a></li>
+                            <li><a href="#about">Lessons</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--------End Header------------->
+
+<!--------Banner Starts---------->
+<div class="banner">
+	<div class="container">
+			<div class="profilepic"> 
+            	<img src="images/ProfilePic_Aut.png"/>
+				<div class="banner-text">
 				
-					});
-			  </script>
-			 <!--//End-slider-script-->
-			 <div  id="top" class="callbacks_container">
-			      <ul class="rslides" id="slider4">
-			         <li>
-						  <div class="banner-head-info"> 
-							 <h4>Hello,we are<span> Molly </span>,and we create</h4>
-							 <h1>BRANDS</h1>
-							 <p class="title">Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
-							 <div class="banner-Get-started">
-								<a href="#">GET STARTED</a>
-							 </div>
-						  </div>
-			         </li>
-			         <li>
-			             <div class="banner-head-info">					    
-			          	 <h4>Hello,we are<span> Molly </span>,and we create</h4>
-			          	 <h1>TECHNOLOGY</h1>
-						 <p class="title">Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
-			             <div class="banner-Get-started">
-						 <a href="#">GET STARTED</a>
-					      </div>
-					     </div>
-			         </li>
-			         <li>
-			             <div class="banner-head-info">					    
-			          	 <h4>Hello,we are<span> Molly </span>,and we create</h4>
-			             <h1>DESIGNING</h1>
-						 <p class="title">Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
-			             <div class="banner-Get-started">
-						 <a href="#">GET STARTED</a>
-					     </div>
-					     </div>
-			         </li>
-			      </ul>
-			  </div>
-			    <div class="clearfix"> </div>
-	      </div>
-     </div>
-</div>
-<!--banner-->
-<!--SERVICES-->
-<div id="services" class="services">
-	 <h2>SERVICES</h2>
-	 <img src="images/service.png" alt=""/>
-	 <p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus 
-	 convallis quis ac lectus. Quisque velit nisi,pretium ut lacinia in, elementum id enim.</p>
-	 <div class="container">
-		 <div class="service-grids">
-			  <div class="col-md-3 service-grid">
-				  <a href="#"><span class="icon1"></span></a>
-				  <lable> </lable>
-				  <h4>WEB DESIGN</h4>
-				  <p>Donec sollicitudin molestie malesuada. Curabitur 
-				  aliquet quam id dui posuere blandit.</p>
-			  </div>
-			  <div class="col-md-3 service-grid">
-				  <a href="#"><span class="icon2"></span></a>
-				  <lable> </lable>
-				  <h4>GRAPHIC DESIGN</h4>
-				  <p>Donec sollicitudin molestie malesuada. Curabitur 
-				  aliquet quam id dui posuere blandit.</p>
-			  </div>
-			  <div class="col-md-3 service-grid">
-				  <a href="#"><span class="icon3"></span></a>
-				  <lable> </lable>
-				  <h4>PHOTOGRAPHY</h4>
-				  <p>Donec sollicitudin molestie malesuada. Curabitur 
-				  aliquet quam id dui posuere blandit.</p>
-			  </div>
-			  <div class="col-md-3 service-grid">
-				  <a href="#"><span class="icon4"></span></a>
-				  <h4>DEVELOPING</h4>
-				  <p>Donec sollicitudin molestie malesuada. Curabitur 
-				  aliquet quam id dui posuere blandit.</p>
-		      </div>
-				<div class="clearfix"></div>
-		 </div>
-	 </div>
-</div>
-<!--SERVICE-->
-
-<!--SERVICES BANNER-->
-<div class="service-banner">
-	  <div class="service-banner-layer">
-	     <div class="container service-banner-layer-info">
-	          <div class="col-md-6 tab">
-			  <span></span>
-			  </div>
-	           <div class="col-md-6 service-info">
-			      <h3>WE MAKE WEB DESIGN</h3>
-			      <p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. 
-			      Quisque velit nisi, pretium ut lacinia in, elementum id enim.Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
-			      <div class="service-nav">
-					  <ul>
-					  <li><a href="#"><span></span>CLEAN AND MODERN DESIGN</a></li> 
-					  <li><a href="#"><span></span>FULLY RESPONSIVE</a></li> 
-					  <li><a href="#"><span></span>SINGLEPAGE & MULTIPAGE</a></li> 
-					  <li><a href="#"><span></span>GREAT FOR ANY BUSSINESS</a></li> 
-					  </ul>
-			     </div>
-		      </div>
-		      <div class="clearfix"></div>
-	     </div>
-      </div>
-	 <!--SERVICES Footer-->	  
-	 <div class="service-footer">
-		  <div class="Get-started">
-			  <a href="#">GET STARTED</a>
-		  </div>
-	 </div>
-	 <!--SERVICES Footer-->	  
-</div>
-<!--SERVICES BANNER ENDS-->
-
-<!--portfolio-->
-<div id="portfolio" class="portfolio">
-   <div class="portfolio-head">
-	 <h2>PORTFOLIO</h2>
-	 <img src="images/service.png" alt=""/>
-	 <p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus 
-	 convallis quis ac lectus. Quisque velit nisi,pretium ut lacinia in, elementum id enim.</p>
-	 <div class="container">
-	      <ul id="filters" class="clearfix wow bounceIn" data-wow-delay="0.4s">
-			<li><span class="filter active" data-filter="app card icon logo fun">ALL</span></li>
-			<li><span class="filter" data-filter="app">WEB DESIGN</span></li>
-			<li><span class="filter" data-filter="card">GRAPHIC DESIGN</span></li>
-			<li><span class="filter" data-filter="icon">PHOTOGRAPHY</span></li>
-			<li><span class="filter" data-filter="fun">APPS</span></li>
-	       </ul>
-	     <div id="portfoliolist">
-					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						     <img src="images/img1.jpg" class="img-responsive" alt=""/></a>
-		                </div>
-					</div>				
-					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						     <img src="images/img3.jpg" class="img-responsive" alt=""/></a>
-		                </div>
-					</div>		
-					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						     <img src="images/img2.jpg" class="img-responsive" alt=""/></a>
-		                </div>
-					</div>				
-					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						     <img src="images/img4.jpg" class="img-responsive" alt=""/></a>
-		                </div>
-					</div>	
-					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						     <img src="images/img5.jpg" class="img-responsive" alt=""/></a>
-		                </div>
-					</div>			
-					<div class="portfolio fun mix_all" data-cat="fun" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
-						     <img src="images/img6.jpg" class="img-responsive" alt=""/></a>
-		                </div>
-			      </div>
-		   <div class="clearfix"></div>	
-	  </div>
-</div>	  
-<!-- Script for gallery Here-->
-<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-<script type="text/javascript">
-	$(function () {
-		var filterList = {
-		init: function () {
-// MixItUp plugin
-// http://mixitup.io
-				$('#portfoliolist').mixitup({
-					targetSelector: '.portfolio',
-					filterSelector: '.filter',
-					effects: ['fade'],
-					easing: 'snap',
-				// call the hover effect
-				onMixEnd: filterList.hoverEffect()
-	});				
-},
-		hoverEffect: function () {
-// Simple parallax effect
-		$('#portfoliolist .portfolio').hover(
-			function () {
-			$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-			$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-			},
-					function () {
-						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-			}		
-		);				
-	}
-};
-// Run the show!
-		filterList.init();
-	});	
-</script>
-<!--Gallery Script Ends-->
-<div class="clearfix"></div>
-<div class="portfolio-showmore">
-  <a href="#">SHOW MORE</a>
-</div>
-</div>
-  <div class="clearfix"></div>
-<div class="portfolio-video"> 
-	  <div class="portfolio-video-grids">
-		  <div class="col-md-6 video">
-				<iframe src="//player.vimeo.com/video/47491719"></iframe>
-				<p><a href="http://vimeo.com/8245963"></a>
-		  </div>
-		  <div class="col-md-6 portfolio-video-head">
-				<h3>LOREM LIPSUM VIDEO HERE</h3>
-				<h4><i>Quisque velit nisi, pretium ut lacinia in,
-				elementum id enim.</i></h4>
-				<p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-				Quisque velit nisi, pretium ut lacinia in, elementum id enim.Curabitur non nulla sit amet nisl tempus 
-				convallis quis ac lectus. </p>
-				<p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-				Quisque velit nisi, pretium ut lacinia in.</p>
-				<p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. 
-				Quisque velit nisi, pretium ut lacinia in, elementum id enim.Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. </p>
-				<div class="portfolio-Get-started">
-					<a href="#">READ MORE..</a>
-				</div>
-		  </div>
-		  <div class="clearfix"></div>
-	  </div>
-  </div>
-</div>
-<!--portfolio-->
-<!--MOLLY-->
-<div class="molly">
-<h3>MOLLY IS GREAT FOR ANY BUSSINESS</h3>
-<p><i>Yes Mentum is fully responsive,and look's great on any device.</i></p>
-<div class="molly-Get-started">
-  <a href="#">GET STARTED</a>
-</div>
-<div class="clearfix"></div>
-<section id="dg-container" class="dg-container">
-   <div class="dg-wrapper">
-					<a href="#"><img src="images/1.jpg" alt="image1" /></a>
-					<a href="#"><img src="images/2.jpg" alt="image2" /></a>
-					<a href="#"><img src="images/3.jpg" alt="image3" /></a>
-					<a href="#"><img src="images/4.jpg" alt="image4" /></a>
-					<a href="#"><img src="images/5.jpg" alt="image5" /></a>
-					<a href="#"><img src="images/6.jpg" alt="image1" /></a>
+                	<h2 class="tagline">Autumn Allee<br/><span>soprano & voice instructor</span></h2>
+                    
+						<p class="under-tagline">professional soprano and teacher of classical voice</p>
+						<p class="under-tagline">based in San Rafael and performing in the Bay Area</p>
+					 
+			<button class="mainbutton">About Lessons</button>
+			</div>
+		</div >
 	</div>
-</section>
- </div>
-<!--MOLLY ends-->
-
-<!--ABOUT-->
- <div id="about" class="about">
-	 <h2>ABOUT US</h2>
-	 <img src="images/service.png" alt=""/>
-	 <p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus 
-		 convallis quis ac lectus. Quisque velit nisi,pretium ut lacinia in, elementum id enim.</p>
-	 <div class="about-grids">
-		 <div class="col-md-4 left-img">
-		 <img src="images/company.jpg" class="img-responsive" alt=""/>
-		 </div>
-		 <div class="col-md-4 middle">
-			 <a href="#"><h3>John Doe</h3></a>
-			 <h5>CREATIVE DIRECTOR</h5>
-			 <h6>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
-			 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt..</h6>
-			 <h6>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
-			 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt..</h6>
-			  <div class="social-icons">
-				 <a href="#"><span class="icon1"> </span></a>
-				 <a href="#"><span class="icon2"> </span></a>
-				 <a href="#"><span class="icon3"> </span></a>
-			 </div>
-		 </div>
-		 <div class="col-md-4 right-img">
-		 <img src="images/head.jpg" class="img-responsive" alt=""/>
-		 </div>
-		 <div class="clearfix"></div>
-	 </div>
 </div>
-<!---ABOUT ends-->
-<!--AD-->
-<div class="ad">
-	 <div class="container">
-		 <div class="ad-grids">
-			 <div class="col-md-6 skill-grid">
-				 <h4>SKILLS</h4>
-				 <div class="skill-head">
-					  <p>HTML & CSS</p>
-					  <span><lable></lable></span>
-					  <p>AI & PS</p>
-					  <span><lable></lable></span>
-					  <p>JSS & PHP</p>
-					  <span><lable></lable></span>
-					  <p>PHOTOGRAPHY</p>
-					  <span><lable></lable></span>
-				 </div>
-			 </div>
-		 
-			 <div class="col-md-6 skill-about">
-				  <h4>ABOUT COMPANY</h4>
-				 <h6>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
-				 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.
-				 Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta.</h6>
-				 <h6>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
-				 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.
-				 Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta.</h6>
-			 </div>
-			 <div class="clearfix"></div>
-		 </div>
-	 </div>
-</div>
-<!--AD ends-->
-<!--BLOG-->
-<div id="blog" class="blog">
-	 <h2>BLOG</h2>
-	 <img src="images/service.png" alt=""/>
-	 <p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus 
-		 convallis quis ac lectus. Quisque velit nisi,pretium ut lacinia in, elementum id enim.</p>
-
-	 <div class="blog-grids">
-		 <div class="container">
-			 <div class="col-md-6 blog-left">
-				 <img src="images/h1blog.jpg" class="img-responsive" alt=""/>
-				 <div class="blog-img-info">
-					 <h3><a href="#">Sample Blog Title</a></h3>
-					 <span>November. 2013 by  <a href="#"> John Doe</a></span>
-					 <p>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
-					 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.</p>
-					 <div class="blog-readmore">
-					 <a href="#">READ MORE..</a>
-					 </div>
-					 <div class="clearfix"></div>
-				 </div>
-			 </div>
+    <!--------Banner Ends------------>
+    
+    <!--------Services Starts-------->
+	<div class="services" id="service">
+        	<div class="container">
+            	<div class="section-head">
+                	<h3>Best <span>Services</span></h3>
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis faucibus leo. Ut ac arcu a diam mollis semper. In nec blandit nisl, nec cursus lectus.</p>-->
+                </div>
+                <div class="services-list">
+                	<ul>
+                		<li>
+                    		<div class="service-icon icon1"></div>
+                    		<h4>Professional Works</h4>
+                    		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    	</li>
+                    	<li>
+                    		<div class="service-icon icon2"></div>
+                    		<h4>Highly Customizable</h4>
+                    		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    	</li>
+                    	<li>
+                    		<div class="service-icon icon3"></div>
+                    		<h4>Quick Response</h4>
+                    	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    	</li>
+                	</ul>
+                </div>
+            </div>
+        </div>
+    <!--------Services Ends---------->
+    
+    <!--------Desc Starts------------>
+    	<div class="desc">
+        	<div class="container">
+            	<h3>Artistic Philosophy</h3>
+                <p>The purpose of singing is not only to create beautiful sound, but to also connect with people in a way that invigorates, disturbs, saddens or excites. It is my passion to use the voice to communicate deeply with the audience. </p>
+				<h4>This is art:</h4>
+				<p>to create a moment in which the one observing sees oneself, sees one's own exuberance, one's own sadness or turmoil. These moments of expressivity and connection are what I live for, and what I intend to help my students achieve.</p>
 				
-			 <div class="col-md-6 blog-right">
-				 <img src="images/h1blog2.jpg" class="img-responsive" alt=""/>
-				 <div class="blog-img-info">
-					 <h3><a href="#">Sample Blog Title</a></h3>
-					 <span>November. 2013 by <a href="#">  John Doe</a></span>
-					 <p>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
-					 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.</p>
-					 <div class="blog-readmore">
-					 <a href="#">READ MORE..</a>
-					 </div>
-					 <div class="clearfix"></div>
-				 </div>
-			 </div> 
-			 <div class="clearfix"></div>
-		 </div>
-	 </div>
-
-	 <div class="blog-grids-bottom">
-		 <div class="container">
-			 <div class="col-md-4 blog-bottom-left">
-				 <img src="images/blog1.jpg" class="img-responsive" alt=""/>
-				 <div class="blog-img-info">
-					 <h3><a href="#">Sample Blog Title</a></h3>
-					 <span>November. 2013 by <a href="#">  John Doe</a></span>
-					 <p>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
-					 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.</p>
-					 <div class="blog-readmore">
-					 <a href="#">READ MORE..</a>
-					 </div>
-					 <div class="clearfix"></div>
-				 </div>
-			 </div>	
-			 <div class="col-md-4 blog-bottom-middle">
-				 <img src="images/blog2.jpg" class="img-responsive" alt=""/>
-				 <div class="blog-img-info">
-					 <h3><a href="#">Sample Blog Title</a></h3>
-					 <span>November. 2013 by <a href="#">   John Doe</a></span>
-					 <p>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
-					 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.</p>
-					 <div class="blog-readmore">
-					 <a href="#">READ MORE..</a>
-					 </div>
-					 <div class="clearfix"></div>
-				 </div>
-			 </div> 
-			 <div class="col-md-4 blog-bottom-right">
-				 <img src="images/blog3.jpg" class="img-responsive" alt=""/>
-				 <div class="blog-img-info">
-					 <h3><a href="#">Sample Blog Title</a></h3>
-					 <span>November. 2013 by <a href="#">  John Doe</a></span>
-					 <p>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
-					 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.</p>
-					 <div class="blog-readmore">
-					 <a href="#">READ MORE..</a>
-					 </div>
-					 <div class="clearfix"></div>
-				 </div>
-			 </div> 
-			 <div class="clearfix"></div>
-	     </div>
-	  </div>
-	    <div class="blog-show-more">
-	    <a href="#">SHOW MORE</a>
-	    </div>
-</div>
-<!--BLOG Ends-->
-
-<!--SUBSCRIBE-->
-<div class="subscribe">
-	 <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
-	 <form>
-		 <input type="text" class="text" value="You mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'You mail';}">
-		 <input type="submit" value="SUBSCRIBE">
-	 </form>
-</div>
-<!--SUBSCRIBE Ends-->
-<!--CONTACT-->
-<div id="contact" class="contact">
-	 <div class="contact-head">
-		 <div class="container">
-			 <h2>CONTACT US</h2>
-			 <img src="images/service.png" alt=""/>
-			 <p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus 
-				convallis quis ac lectus. Quisque velit nisi,pretium ut lacinia in, elementum id enim.</p>
-		 </div>
-		 <form>
-			 <input type="text" class="text" value="Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name';}">
-			 <input type="text" class="text" value="Your mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your mail';}">
-			 <input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
-			 <textarea onfocus="if(this.value == 'Enter Message Here') this.value='';" onblur="if(this.value == '') this.value='Enter Message Here';" >Enter Message Here</textarea>	
-			 <div class="clearfix"></div>
-			 <input type="submit" value="SEND MESSAGE">
-		 </form>
-	 </div>
-</div>
-<!--CONTACT Ends-->
-<!--FOOTER-->
-<div class="footer">
-	 <div class="footer-head">
-		 <h5>awesomemail(at)ourmail.com</h5>
-		 <h6>(0)123-456-789-00</h6>
-		 <div class="footer-social-icons">
-			 <a href="#"><span class="facebook"> </span></a>
-			 <a href="#"><span class="twitter"> </span></a>
-			 <a href="#"><span class="googleplus"> </span></a>
-			 <a href="#"><span class="wifi"> </span></a>
-			 <a href="#"><span class="tribble"> </span></a>
-			 <a href="#"><span class="flicker"> </span></a>
-			 <a href="#"><span class="skype"> </span></a>
-		 </div>
-		 <p>Template by<a href="http://w3layouts.com/"> W3layouts.</a></p>
-	 </div>
-</div>
-<script type="text/javascript">
-		$(document).ready(function() {
-				/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-				*/
-		$().UItoTop({ easingType: 'easeOutQuart' });
-});
-</script>
-<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-
+			</div>
+        </div>
+    <!--------Desc Ends-------------->
+    
+    <!--------Work Starts------------>
+    	<div class="work" id="work">
+        	<div class="container">
+            	<div class="section-head">
+                	<h3>Our <span>Works</span></h3>
+                </div>
+                <div class="work-gallery">
+                	<ul>
+                    	<li><a href="#"><img src="images/unsplash001.jpg"/></a>
+                        </li>
+                        <li><a href="#"><img src="images/unsplash002.jpg"/></a>
+                        </li>
+                        <li><a href="#"><img src="images/unsplash003.jpg"/></a>
+                        </li>
+                        <li><a href="#"><img src="images/unsplash004.jpg"/></a>
+                        </li>
+                        <li><a href="#"><img src="images/unsplash005.jpg"/></a>
+                        </li>
+                        <li><a href="#"><img src="images/unsplash006.jpg"/></a>
+                        </li>
+                        <li><a href="#"><img src="images/unsplash007.jpg"/></a>
+                        </li>
+                        <li><a href="#"><img src="images/unsplash001.jpg"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!--------Work Ends-------------->
+    
+    <!--------About Starts----------->
+    	<div class="about" id="about">
+        	<div class="container">
+            	<div class="section-head">
+                	<h3>About <span>Creative Studio</span></h3>
+                </div>
+                <div class="team">
+                    	<ul>
+                        	<li><img src="images/team-member1.jpg"/><h5>Angela Leo</h5><span class="team-info">Web developer</span></li>
+                            <li><img src="images/team-member2.jpg"/><h5>Angela Leo</h5><span class="team-info">Web developer</span></li>
+                            <li><img src="images/team-member3.jpg"/><h5>Angela Leo</h5><span class="team-info">Web developer</span></li>
+                            <li><img src="images/team-member4.jpg"/><h5>Angela Leo</h5><span class="team-info">Web developer</span></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    <!--------About Ends------------->
+    
+    <!--------Contact Starts--------->
+    	<div class="contact" id="contact">
+        	<div class="container">
+            	<div class="section-head">
+                	<h3>Get In <span>Touch</span></h3>
+                </div>
+                <div class="contact-section">
+            		<div class="contact-form">
+                		<form>
+                    		<input type="text" name="Name" placeholder="Name" />
+                        	<input type="email" name="email" placeholder="Email"/>
+                        	<textarea placeholder="Message" rows="6"></textarea>
+                        	<button type="submit" class="submit">Send Message</button>
+                   		</form>
+                	</div>
+                	<div class="contact-details">
+                		<p class="address">123689 Pathway, London<br>
+                            England
+                        </p>
+                        <p class="tel">+18965478954</p>
+                        <p class="mail">info@exemplary.com</p>
+                	</div>
+                </div>
+            </div>
+        </div>
+    <!--------Contact Ends----------->
+    
+    <!--------Footer Starts---------->
+    	<div class="footer">
+        	<div class="container">
+            	<div class="infooter">
+                <p class="copyright">Copyright &copy; Exemplary 2014 by <a class="credit"href="http://www.html5layouts.com">HTML5 Layouts</a></p>
+            	</div>
+            <ul class="socialmedia">
+                <li><a href=""><i class="icon-twitter"></i></a></li>
+                <li><a href=""><i class="icon-facebook"></i></a></li>
+                <li><a href=""><i class="icon-dribbble"></i></a></li>
+                <li><a href=""><i class="icon-linkedin"></i></a></li>
+                <li><a href=""><i class="icon-instagram"></i></a></li>
+            </ul>
+            </div>
+        </div>
+    <!--------Footer Ends------------>
 </body>
 </html>
