@@ -179,7 +179,7 @@ ul.nav li a.active
 	padding: 15px;
 	line-height: 1.5;
 	font-size: 18px;
-	margin-top: -25px;
+	margin-top: -65px;
 	margin-bottom: 50px;
 }
 p.under-tagline
@@ -214,7 +214,14 @@ button.mainbutton:hover
 	color: #000000;
 	font-weight: 450;
 }
-
+.bio
+{
+	width: 100%;
+	background: url(../images/texture-bg.png) repeat;
+	float: left;
+	
+	
+}
 .services
 {
 	width: 100%;
@@ -227,7 +234,7 @@ button.mainbutton:hover
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	word-spacing: 10px;
-	padding: 80px 0px 80px 25.5px;
+	padding: 70px 0px 70px 25.5px;
 }
 .section-head h3
 {
@@ -305,41 +312,59 @@ button.mainbutton:hover
 }
 .desc
 {
+	
 	background:url(../images/p.jpg) no-repeat fixed;
 	-o-background-size: cover; 
 	-moz-background-size: cover; 
 	-webkit-background-size:cover; 
 	background-size: cover;
-	padding:100px 0px 100px 0px;
+	padding:30px 0px 30px 0px;
 	background-color: #3d454a;
 	cursor: default;
 	float: left;
 	width: 100%;
 	text-align: center;
+	
 }
 .desc h3
 {
-	font-size: 30px;
-	font-weight: 600;
+	font-family: 'Sacramento', cursive;
+	font-size: 55px;
+	font-weight: 300;
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
+	color: #16b1b5;
+	word-spacing: 5px;
 }
 .desc h4
 {
-	font-size: 25px;
-	font-weight: 400;
+	font-family: 'Sacramento', cursive;
+	font-size: 45px;
+	font-weight: 100;
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
-	margin-top: 20px;
+	margin-top: 30px;
+	color: #16b1b5;
+	word-spacing: 5px;
+	
 }
+.desc h4 span
+{
+	font-family: 'Sacramento', cursive;
+	font-weight: 400;
+	color: #16b1b5;
 
+}
 .desc p
 {
-	color: #f8f8f8;
-	width: 80%;
+	word-spacing: 1px;
+	font-family: 'Century Gothic', sans-serif;
+	color: #E6E6E6;
+	width: 70%;
 	font-size: 20px;
+	font-weight: 80;
 	line-height: 30px;
-	margin: 25px auto 0px auto;
+	margin: 10px auto 0px auto;
 	text-shadow: 1px 1px 1px #000;
 }
 .work
