@@ -28,6 +28,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	font-family: 'Open Sans', sans-serif;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -66,22 +67,24 @@ p, span
 
 .header
 {
-	width: 100%;
+
+width: 100%;
 }
 .container
 {
 	width: 1200px;
 	margin: 0 auto;
 }
+
 .logo
 {
 	float: left;
 }
 .logo h1
 {
-	font-size: 30px;
+	font-size: 35px;
 	color: #16b1b5;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Sacramento', cursive;
 	font-weight: 400;
 	padding: 25.5px;
 }
@@ -90,7 +93,7 @@ p, span
 	float: right;
 }
 .show-menu {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'J', sans-serif;
 	text-decoration: none;
 	color: #fff;
 	background: #16b1b5;
@@ -113,12 +116,13 @@ ul.nav li
 		float: left;
 		margin: 0 15px;
 		padding: 33px 0px;
+		
 }
 ul.nav li a
 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	font-weight: 600;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
 	text-decoration: none;
 	color: #fff;
 	display: block;
@@ -171,7 +175,13 @@ ul.nav li a.active
 	
 }
 
-
+.aboutsection{
+	padding: 15px;
+	line-height: 1.5;
+	font-size: 18px;
+	margin-top: -25px;
+	margin-bottom: 50px;
+}
 p.under-tagline
 {
 	color: #F9F9F9;
@@ -204,6 +214,7 @@ button.mainbutton:hover
 	color: #000000;
 	font-weight: 450;
 }
+
 .services
 {
 	width: 100%;
@@ -212,7 +223,11 @@ button.mainbutton:hover
 }
 .section-head
 {
-	padding: 100px 0px 80px 25.5px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	word-spacing: 10px;
+	padding: 80px 0px 80px 25.5px;
 }
 .section-head h3
 {
@@ -222,7 +237,7 @@ button.mainbutton:hover
 }
 .section-head h3 span
 {
-	font-weight: 400;
+	font-weight: 500;
 }
 .section-head p
 {
