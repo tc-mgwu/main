@@ -1035,7 +1035,13 @@ a.accordion-toggle  i{
   margin-top: 110px;
   margin-bottom: -110px;
 }
-
+.bio{
+	text-align: left;
+	font-family: 'Century Gothic', sans-serif;
+	line-height: 20px;
+	font-family: 30px;
+	margin-top: 50px;
+}
 .about-us h2, 
 .skill_text h2 {
   color:#4e4e4e;
