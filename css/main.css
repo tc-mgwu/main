@@ -1951,10 +1951,14 @@ ul.social_icons li  a i{
 
 .gmap-area {
   background-image: url("../images/map.jpg");
+
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 70px 0;
+  text-align: left;
+
+
 }
 
 .gmap-area .gmap iframe {
@@ -1964,7 +1968,7 @@ ul.social_icons li  a i{
 }
 
 .gmap{
-    border: 10px solid #f6f5f0;
+    border: 10px solid #151515;
     border-radius: 50%;
     height: 300px;
     width: 300px;
@@ -1976,12 +1980,28 @@ ul.social_icons li  a i{
 
 .gmap-area .map-content ul {
   list-style: none; 
+  padding-top: 60px;
+ 
+ text-align: left;
 }
 
 .gmap-area .map-content address h5{
-  font-weight: 700;
+  font-weight: 400;
   /* font-size: 16px; */
+  color: #151515;  
+  
 }
+
+
+.gmap-area .map-content address h4{
+	font-size: 20px;
+  font-weight: 400;
+  /* font-size: 16px; */
+  color: #151515;
+  
+  
+}
+
 
 #contact-page{
   padding-top: 0;
