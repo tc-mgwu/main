@@ -121,7 +121,7 @@ a:focus {
   margin-bottom: 20px;
 }
 
-.media>.pull-left{
+.>.pull-left{
   margin-right: 20px;
 }
 
@@ -285,6 +285,7 @@ input.search-form:hover {
   background: #151515;
   padding: 15px 0;
   padding-bottom: 0;
+  text-transform: uppercase;
 }
 
  .navbar-nav{
@@ -306,8 +307,8 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #c52d2f;
-  color: #fff;
+
+  color: #c52d2f;
 }
 
 .navbar-inverse {
@@ -326,8 +327,8 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #c52d2f;
-  color: #fff;
+  background-color: transparent;
+  color: #c52d2f;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
@@ -356,8 +357,8 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
-  background-color: #c52d2f;
-  color: #fff;
+
+  color:  #c52d2f;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
@@ -566,7 +567,7 @@ input.search-form:hover {
 	margin-left: 20px;
   margin-right: 20px;
   overflow: hidden;
-  text-align: justify;
+  text-align: center;
 }
 
 .feature-wrap h2{
@@ -579,23 +580,23 @@ input.search-form:hover {
 
 .feature-wrap i{
   font-size: 48px;
-  height: 110px;
-  width: 110px;
+  height: 100px;
+  width: 100px;
   margin: 3px;
   border-radius: 100%;
-  line-height: 110px;
+  line-height: 100px;
   text-align:center;
-  background: #ffffff;
-  color: #c52d2f;
-  border: 3px solid #ffffff;
+  background: #c52d2f;;
+  color: #fff;
+  border: 3px solid #c52d2f;;
   box-shadow: inset 0 0 0 5px #f2f2f2;
   -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
   -webkit-transition: 500ms;
   -moz-transition: 500ms;
   -o-transition: 500ms;
   transition: 500ms;
-  float: left;
-  margin-right: 25px;
+  float: center;
+ 
 }
 
 .feature-wrap i:hover {
@@ -681,6 +682,7 @@ input.search-form:hover {
 #services .lead,
 #services h2{
   color: #fff;
+  padding-bottom: 15px;
 }
 
 .services-wrap {
@@ -688,11 +690,32 @@ input.search-form:hover {
   background: #fff;
   border-radius: 4px;
   margin: 0 0 40px;
-}
+ }
+
+.services-wrap2 {
+  padding: 40px 30px;
+  background: transparent;
+  border-radius: 4px;
+  margin: 0 0 40px;
+  color: #fff;
+ 
+ 
+ }
+
+.services-wrap3 {
+  padding: 40px 30px;
+  background: transparent;
+  border-radius: 4px;
+  margin: 0 0 40px;
+  color: #fff;
+  
+ 
+ }
 
 .services-wrap h3 {
   font-size: 20px;
   margin: 10px 0;
+  
 }
 
 .services-wrap .pull-left {
