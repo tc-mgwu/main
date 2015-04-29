@@ -1653,6 +1653,12 @@ ul.social_icons li  a i{
   padding:0;
 }
 
+.space {
+
+margin: 70px;
+	
+}
+
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
 .isotope-item {
